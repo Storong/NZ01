@@ -1,0 +1,12 @@
+Troubleshooting GitHub Push (In Case of Error)
+
+1. Backup all files from the old cloned repository.
+2. Delete the old cloned repository.
+3. Go to GitHub and copy the https of the forked repository. 
+4. Go to Desktop and right click to choose Open Git Bash Here. 
+5. Type in: git clone GITHUB_HTTPS
+6. Move the backed-up files to the newly cloned repository.
+7. Inside the newly cloned repository, right click to choose Open Git Bash Here
+8. Type in: git add .
+9. Type in: git commit -m "YOUR_MESSAGE"
+10. Type in: git push origin master
